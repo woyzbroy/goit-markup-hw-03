@@ -12,6 +12,7 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: var(--backgroundColorMain);
   color: var(--socialsColor);
+  margin: 0;
 }
 img {
   display: block;
@@ -48,6 +49,14 @@ img {
 }
 .white-text {
   color: var(--colorWhite);
+}
+.social-links {
+  display: flex;
+  gap: 46px;
+  padding-left: 93px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .social-links .link {
   font-size: 14px;
