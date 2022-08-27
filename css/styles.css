@@ -21,6 +21,10 @@ img {
   width: 1600px;
   margin: 0 auto;
 }
+.container {
+  width: 1200px;
+  margin: 0 215px;
+}
 .web-studio {
   font-family: 'Raleway';
   font-size: 26px;
