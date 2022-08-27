@@ -1,7 +1,17 @@
+:root {
+  --backgroundColorMain: #e5e5e5;
+  --backgroundColorSecondary: #2f303a;
+  --fontColorMain: #000000;
+  --fontColorSecondary: #757575;
+  --selectionColor: #2196f3;
+  --socialsColor: #212121;
+  --colorWhite: #ffffff;
+  --colorContactLinks: #999999;
+}
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
-  background-color: #e5e5e5;
-  color: #212121;
+  background-color: var(--backgroundColorMain);
+  color: var(--socialsColor);
 }
 img {
   display: block;
@@ -15,29 +25,29 @@ img {
   text-decoration: none;
 }
 .blue-text {
-  color: #2196f3;
+  color: var(--selectionColor);
 }
 .black-text {
-  color: #000000;
+  color: var(--fontColorMain);
 }
 .social-links .link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--socialsColor);
   text-decoration: none;
 }
 .social-links .link:hover,
 .social-links .link:focus {
-  color: #2196f3;
+  color: var(--selectionColor);
 }
 .social-links .current-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--selectionColor);
   text-decoration: none;
 }
 .contact-links {
@@ -45,12 +55,12 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--fontColorSecondary);
   text-decoration: none;
 }
 .contact-links:hover,
 .contact-links:focus {
-  color: #2196f3;
+  color: var(--selectionColor);
 }
 .main-heading {
   font-weight: 900;
@@ -59,8 +69,8 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--colorWhite);
+  background-color: var(--backgroundColorSecondary);
 }
 .order-button {
   cursor: pointer;
@@ -68,12 +78,12 @@ img {
   font-weight: 700;
   line-height: 30px;
   font-size: 16px;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--colorWhite);
+  background-color: var(--selectionColor);
 }
 .order-button:hover {
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--fontColorMain);
+  background-color: var(--colorWhite);
 }
 .portfolio-button {
   cursor: pointer;
@@ -81,12 +91,12 @@ img {
   line-height: 1.63;
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--socialsColor);
+  background-color: var(--colorWhite);
 }
 .portfolio-button:hover {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--colorWhite);
+  background-color: var(--selectionColor);
 }
 .paragraph-heading {
   font-weight: 700;
@@ -94,13 +104,13 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--socialsColor);
 }
 .paragraph-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fontColorSecondary);
 }
 .secondary-heading {
   font-weight: bold;
@@ -108,41 +118,41 @@ img {
   text-align: center;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--socialsColor);
 }
 .worker-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--socialsColor);
 }
 .job-name {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fontColorSecondary);
 }
 .bottom-background {
-  background-color: #2f303a;
+  background-color: var(--backgroundColorSecondary);
 }
 .address-text {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--colorWhite);
 }
 .contact-links-footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--colorContactLinks);
   text-decoration: none;
 }
 .contact-links-footer:hover {
-  color: #2196f3;
+  color: var(--selectionColor);
 }
 .contact-links-footer-underline {
   text-decoration: underline;
@@ -150,21 +160,21 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--colorContactLinks);
 }
 .contact-links-footer-underline:hover {
-  color: #2196f3;
+  color: var(--selectionColor);
 }
 .image-caption {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--socialsColor);
 }
 .image-caption-2 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fontColorSecondary);
 }
