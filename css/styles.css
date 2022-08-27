@@ -23,7 +23,14 @@ img {
 }
 .container {
   width: 1200px;
-  margin: 0 215px;
+  margin: 0 auto;
+}
+.header {
+  align-items: center;
+  gap: 93px;
+  flex-direction: row;
+  padding: 25px 0 24px 0;
+  display: flex;
 }
 .web-studio {
   font-family: 'Raleway';
