@@ -16,6 +16,11 @@ body {
 img {
   display: block;
 }
+.wrapper {
+  background-color: var(--colorWhite);
+  width: 1600px;
+  margin: 0 auto;
+}
 .web-studio {
   font-family: 'Raleway';
   font-size: 26px;
