@@ -39,6 +39,9 @@ img {
 .black-text {
   color: var(--fontColorMain);
 }
+.white-text {
+  color: var(--colorWhite);
+}
 .social-links .link {
   font-size: 14px;
   font-weight: 500;
