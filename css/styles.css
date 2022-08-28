@@ -146,18 +146,31 @@ img {
   color: var(--colorWhite);
   background-color: var(--selectionColor);
 }
+.top-paragraph-section {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  padding: 94px 0 0 0;
+  gap: 30px;
+  margin: 0;
+}
 .paragraph-heading {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0 0 10px 0;
   color: var(--socialsColor);
 }
 .paragraph-text {
+  display: block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin: 0;
   color: var(--fontColorSecondary);
 }
 .secondary-heading {
@@ -166,7 +179,17 @@ img {
   text-align: center;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin: 94px 0 50px 0;
   color: var(--socialsColor);
+}
+.secondary-heading-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 0 94px 0;
+  padding: 0;
+  list-style: none;
 }
 .worker-name {
   font-weight: 500;
