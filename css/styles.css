@@ -10,12 +10,18 @@
 }
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
-  background-color: var(--backgroundColorMain);
-  color: var(--socialsColor);
+  background-color: var(--bckgroundColorMain);
+  color: var(--fontColorSecondary);
   margin: 0;
+  padding: 0;
 }
 img {
   display: block;
+}
+.wrapper {
+  background-color: var(--colorWhite);
+  width: 1600px;
+  margin: 0 auto;
 }
 .container {
   width: 1200px;
@@ -28,14 +34,12 @@ img {
   padding: 25px 0 24px 0;
   display: flex;
 }
-.header > a {
-  margin-left: 215px;
-}
 .web-studio {
+  display: block;
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.9;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -76,7 +80,11 @@ img {
   text-decoration: none;
 }
 .contact-links {
+  display: flex;
+  gap: 50px;
   list-style: none;
+  padding: 0 0 0 278px;
+  margin: 0;
 }
 .contact-links .contact-link {
   font-weight: 500;
@@ -90,6 +98,17 @@ img {
 .contact-links:focus {
   color: var(--selectionColor);
 }
+.top-section {
+  background-color: var(--backgroundColorSecondary);
+  color: var(--colorWhite);
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+}
 .main-heading {
   font-weight: 900;
   font-size: 44px;
@@ -97,8 +116,7 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: var(--colorWhite);
-  background-color: var(--backgroundColorSecondary);
+  margin: 0;
 }
 .order-button {
   cursor: pointer;
@@ -106,6 +124,8 @@ img {
   font-weight: 700;
   line-height: 30px;
   font-size: 16px;
+  width: 200px;
+  height: 50px;
   color: var(--colorWhite);
   background-color: var(--selectionColor);
 }
