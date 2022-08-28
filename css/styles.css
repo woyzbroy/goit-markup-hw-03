@@ -303,6 +303,7 @@ img {
 .product-card {
   height: 404px;
   flex-basis: calc((100% - 60px) / 3);
+  border-bottom: 1px solid var(--colorHeaderBorder);
 }
 .image-caption {
   font-weight: 700;
