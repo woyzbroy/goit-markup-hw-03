@@ -293,6 +293,16 @@ img {
 .products-box {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  padding: 0;
+}
+.product-card {
+  height: 404px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .image-caption {
   font-weight: 700;
