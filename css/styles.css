@@ -7,6 +7,7 @@
   --socialsColor: #212121;
   --colorWhite: #ffffff;
   --colorContactLinks: #999999;
+  --colorOurTeam: #f5f4fa;
 }
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
@@ -173,13 +174,16 @@ img {
   margin: 0;
   color: var(--fontColorSecondary);
 }
+.our-services-background {
+  padding: 94px 0 94px 0;
+}
 .secondary-heading {
   font-weight: bold;
   font-size: 36px;
   text-align: center;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  margin: 94px 0 50px 0;
+  margin: 0 0 50px 0;
   color: var(--socialsColor);
 }
 .secondary-heading-section {
@@ -187,9 +191,25 @@ img {
   flex-direction: row;
   justify-content: center;
   gap: 30px;
-  margin: 0 0 94px 0;
+  margin: 0;
   padding: 0;
   list-style: none;
+}
+.our-team-background {
+  padding: 94px 0 94px 0;
+  background-color: var(--colorOurTeam);
+}
+.our-team-list-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.our-team-box {
+  text-align: center;
 }
 .worker-name {
   font-weight: 500;
