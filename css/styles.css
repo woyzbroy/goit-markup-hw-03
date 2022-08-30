@@ -35,9 +35,8 @@ ul {
 }
 .header {
   align-items: center;
-  gap: 93px;
   flex-direction: row;
-  padding: 25px 0 24px 0;
+  padding: 24px 0 25px 0;
   display: flex;
   border-bottom: 1px solid var(--colorHeaderBorder);
   margin-left: 215px;
@@ -64,8 +63,7 @@ ul {
   display: flex;
   gap: 46px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-left: 93px;
 }
 .social-links .link {
   font-size: 14px;
@@ -91,8 +89,7 @@ ul {
   display: flex;
   gap: 50px;
   list-style: none;
-  padding: 0 0 0 278px;
-  margin: 0;
+  margin-left: 371px;
 }
 .contact-links .contact-link {
   font-weight: 500;
