@@ -137,12 +137,17 @@ img {
   color: var(--fontColorMain);
   background-color: var(--colorWhite);
 }
+.section {
+  padding: 94px 0;
+}
+.no-padding-top {
+  padding-top: 0;
+}
 .top-paragraph-section {
   display: flex;
   list-style: none;
   flex-direction: row;
   justify-content: center;
-  padding: 94px 0 0 0;
   gap: 30px;
   margin: 0;
 }
@@ -158,14 +163,12 @@ img {
 }
 .paragraph-text {
   display: block;
+  width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin: 0;
   color: var(--fontColorSecondary);
-}
-.our-services-background {
-  padding: 94px 0 94px 0;
 }
 .secondary-heading {
   font-weight: bold;
