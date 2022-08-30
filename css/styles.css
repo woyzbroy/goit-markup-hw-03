@@ -20,6 +20,10 @@ body {
 img {
   display: block;
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
 .wrapper {
   background-color: var(--colorWhite);
   width: 1600px;
@@ -299,7 +303,6 @@ img {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  padding: 0;
 }
 .product-card {
   height: 404px;
