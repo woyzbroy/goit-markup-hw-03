@@ -190,8 +190,19 @@ ul {
 .contact-link-footer:focus {
   color: var(--selectionColor);
 }
-.contact-list-footer li:first-child {
+.contact-link-footer-underline {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: underline;
+  font-style: normal;
+}
+.contact-link-footer-underline:hover,
+.contact-link-footer-underline:focus {
+  color: var(--selectionColor);
 }
 
 .portfolio-button {
