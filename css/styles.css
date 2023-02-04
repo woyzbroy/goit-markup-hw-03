@@ -190,7 +190,6 @@ ul {
 .contact-link-footer:focus {
   color: var(--selectionColor);
 }
-
 .contact-list-footer li:first-child {
   text-decoration: underline;
 }
