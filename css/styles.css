@@ -161,6 +161,7 @@ ul {
   gap: 30px;
 }
 .paragraph-heading {
+  display: block;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
@@ -168,14 +169,17 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--socialsColor);
+  margin: 0 0 10px 0;
 }
 .paragraph-text {
+  display: block;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
+  margin: 0;
 }
 
 .secondary-heading {
@@ -186,7 +190,16 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--socialsColor);
+  margin: 0 0 50px 0;
 }
+.secondary-heading-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
 .worker-name {
   font-family: 'Roboto';
   font-weight: 500;
