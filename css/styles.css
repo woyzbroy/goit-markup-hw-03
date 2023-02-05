@@ -196,11 +196,27 @@ ul {
 .no-padding-top {
   padding-top: 0;
 }
+
+.grey-backgorund {
+  background-color: var(--portfolioButton);
+}
 .secondary-heading-list {
   display: flex;
   list-style: none;
   gap: 30px;
   justify-content: center;
+}
+.third-heading-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.our-team-card {
+  background-color: var(--colorWhite);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .worker-name {
@@ -210,6 +226,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--socialsColor);
+  margin: 30px 0 10px 0;
 }
 .job-name {
   font-family: 'Roboto';
@@ -218,6 +235,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
+  margin: 0 0 30px 0;
 }
 
 .footer-background {
