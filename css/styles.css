@@ -153,6 +153,13 @@ ul {
 .section {
   padding: 94px 0;
 }
+.first-paragraph-section {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
 .paragraph-heading {
   font-family: 'Roboto';
   font-weight: 700;
