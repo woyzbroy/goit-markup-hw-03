@@ -106,6 +106,17 @@ ul {
   color: var(--fontColorSecondary);
 }
 
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 200px 0;
+  width: 100%;
+  color: var(--colorWhite);
+  background-color: var(--backgroundColorSecondary);
+}
+
 .main-heading {
   font-family: 'Roboto';
   font-size: 44px;
@@ -114,12 +125,12 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--colorWhite);
-  background-color: var(--backgroundColorSecondary);
 }
 .main-button {
   cursor: pointer;
   font-family: 'Roboto';
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
