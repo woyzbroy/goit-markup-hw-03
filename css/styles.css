@@ -9,6 +9,7 @@
   --colorContactLinks: #999999;
   --portfolioButton: #f5f4fa;
   --backgroundBorderBottom: #ececec;
+  --backgroundProductCard: #eeeeee;
 }
 body {
   background-color: var(--backgroundColorMain);
@@ -305,9 +306,6 @@ ul {
   background-color: var(--selectionColor);
   color: var(--colorWhite);
 }
-.image-list {
-  list-style: none;
-}
 .image-caption {
   font-family: 'Roboto';
   font-weight: 700;
@@ -315,6 +313,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--socialsColor);
+  margin: 20px 24px 4px 24px;
 }
 .image-paragraph {
   font-family: 'Roboto';
@@ -323,10 +322,23 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
+  margin: 0px 24px 20px 24px;
 }
 .portfolio-buttons {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
+}
+.products-box {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.product-card {
+  height: 404px;
+  background: var(--colorWhite);
+  border-bottom: 1px solid var(--backgroundProductCard);
+  flex-basis: calc((100% - 60px) / 3);
 }
