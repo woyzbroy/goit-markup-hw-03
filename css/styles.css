@@ -8,6 +8,7 @@
   --colorWhite: #ffffff;
   --colorContactLinks: #999999;
   --portfolioButton: #f5f4fa;
+  --backgroundBorderBottom: #ececec;
 }
 body {
   background-color: var(--backgroundColorMain);
@@ -40,6 +41,7 @@ ul {
   align-items: center;
   margin-left: 215px;
   padding: 24px 0 25px 0;
+  border-bottom: 1px solid var(--backgroundBorderBottom);
 }
 
 .web-studio {
