@@ -287,6 +287,7 @@ ul {
 .portfolio-button {
   background-color: var(--portfolioButton);
   border-radius: 4px;
+  border-style: none;
   color: var(--socialsColor);
   font-family: 'Roboto';
   font-weight: 500;
@@ -295,6 +296,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 6px 22px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -321,4 +323,10 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
+}
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
 }
