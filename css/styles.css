@@ -29,6 +29,19 @@ ul {
   width: 1600px;
   margin: 0 auto;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 215px;
+  padding: 24px 0 25px 0;
+}
+
 .web-studio {
   font-family: 'Raleway';
   font-size: 26px;
@@ -45,6 +58,10 @@ ul {
 }
 
 .social-links {
+  display: flex;
+  gap: 46px;
+  padding: 32px 0;
+  margin-left: 93px;
   list-style: none;
 }
 .social-links .link:hover,
