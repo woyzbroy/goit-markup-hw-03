@@ -192,12 +192,15 @@ ul {
   color: var(--socialsColor);
   margin: 0 0 50px 0;
 }
+
+.no-padding-top {
+  padding-top: 0;
+}
 .secondary-heading-list {
   display: flex;
   list-style: none;
   gap: 30px;
   justify-content: center;
-  margin-bottom: 94px;
 }
 
 .worker-name {
