@@ -54,8 +54,8 @@ ul {
 .blue-text {
   color: var(--selectionColor);
 }
-.black-text {
-  color: var(--fontColorMain);
+.white-text {
+  color: var(--colorWhite);
 }
 
 .social-links {
@@ -241,6 +241,13 @@ ul {
 
 .footer-background {
   background-color: var(--backgroundColorSecondary);
+  padding: 60px 0;
+}
+.footer-box {
+  margin-left: 215px;
+}
+.address-box {
+  margin: 20px 0 0 0;
 }
 .address-text {
   font-family: 'Roboto';
