@@ -57,6 +57,9 @@ ul {
 .white-text {
   color: var(--colorWhite);
 }
+.black-text {
+  color: var(--fontColorMain);
+}
 
 .social-links {
   display: flex;
