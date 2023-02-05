@@ -150,6 +150,9 @@ ul {
   color: var(--fontColorMain);
 }
 
+.section {
+  padding: 94px 0;
+}
 .paragraph-heading {
   font-family: 'Roboto';
   font-weight: 700;
