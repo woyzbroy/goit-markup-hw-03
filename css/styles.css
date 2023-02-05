@@ -60,7 +60,6 @@ ul {
 .social-links {
   display: flex;
   gap: 46px;
-  padding: 32px 0;
   margin-left: 93px;
   list-style: none;
 }
@@ -88,6 +87,9 @@ ul {
 }
 
 .contact-list {
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
   list-style: none;
 }
 .contact-list .contact-link:hover,
