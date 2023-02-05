@@ -341,5 +341,4 @@ ul {
   height: 404px;
   background: var(--colorWhite);
   border-bottom: 1px solid var(--backgroundProductCard);
-  flex-basis: calc((100% - 60px) / 3);
 }
