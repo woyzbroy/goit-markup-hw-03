@@ -43,10 +43,11 @@ ul {
 }
 
 .web-studio {
+  display: block;
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.9;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -109,6 +110,7 @@ ul {
 .top-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 30px;
   padding: 200px 0;
@@ -118,6 +120,7 @@ ul {
 }
 
 .main-heading {
+  margin: 0;
   font-family: 'Roboto';
   font-size: 44px;
   font-weight: 900;
